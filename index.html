@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="output.css" />
+  <title>SMAN 111 JAKARTA UTARA</title>
+</head>
+
+<body>
+  <div class="navbar w-full h-20 bg-sky-900 text-xl shadow-xl z-50 fixed top-0">
+    <p
+      class="text-center float-left mt-6 ml-28 lg:flex font-semibold text-slate-200 text-2xl min-[600px]:hidden sm:flex">
+      SMAN 111 JAKARTA UTARA
+    </p>
+    <div class="logo w-16 h-16 absolute top-2 left-10">
+      <img src="public/logo sekolah.png" alt="logo 111" />
+    </div>
+    <nav class="flex justify-between float-right pt-[23px] pr-10 text-slate-200">
+      <ul class="font-roboto text-2xl gap-8 min-[380px]:hidden md:hidden lg:flex">
+        <li class="hover:underline"><a href="index.html">Home</a></li>
+        <li class="hover:underline"><a href="profile.html">Profile</a></li>
+        <li class="hover:underline"><a href="gallery.html">Gallery</a></li>
+        <li class="hover:underline"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="responsive-navbar">
+      <i class="bar fa-solid fa-bars float-right flex m-auto pt-5 pr-6 text-3xl cursor-pointer relative min-[380px]:pr-0 lg:hidden"
+        style="color: #d0d7e1"></i>
+
+      <ul
+        class="link lg:hidden float-right p-4 mr-4 text-xl text-slate-200 bg-sky-900 w-300px h-300px text-center shadow-2xl rounded-md z-10 right-16 absolute">
+        <li class="hover:underline active:underline p-3 font-roboto">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="hover:underline p-3">
+          <a href="profile.html">Profile</a>
+        </li>
+        <li class="hover:underline p-3">
+          <a href="gallery.html">Gallery</a>
+        </li>
+        <li class="hover:underline p-3">
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="w-full z-[10]">
+    <div class="mt-[70px] mr-10">
+      <div class="instagram-logo text-4xl text-right pt-10">
+        <i class="fa-solid fa-clock text-left text-2xl ml-10 float-left"> </i>
+        <div class="date inline-flex text-2xl font-rubik float-left ml-3 font-semibold"></div>
+        <i class="cursor-pointer fa-brands fa-instagram"><a href=""></a></i>
+        <i class="cursor-pointer fa-brands fa-youtube ml-2"><a href=""></a></i>
+        <i class="cursor-pointer fa-brands fa-whatsapp ml-2"><a href=""></a></i>
+      </div>
+      <img
+        class="bg-cover bg-fixed absolute z-0 brightness-[0.4] object-fill min-[640px]:h-[450px] w-full max-[2080px]:h-[500px] min-[1536px]:h-[600px] min-[1280px]:h-[600px] min-[1024px]:h-[490px] mt-8"
+        src="./public/gedungSekolah.jpeg" alt="gedungSekolah" />
+
+      <div class="z-[8] relative top-[140px] xl:top-[160px] 2xl:top-[180px] left-10">
+        <div data-aos="fade-right" data-aos-duration="1000"
+          class="text-4xl text-slate-300 font-bold font-rubik m-auto xl:text-[40px] 2xl:text-[50px]">
+          Selamat Datang di
+        </div>
+
+        <div data-aos="fade-right" data-aos-duration="2000"
+          class="text-4xl text-sky-400 font-bold font-rubik text-wrap xl:text-[50px] xl:mt-3 2xl:text-[60px] 2xl:mt-5">
+          SMA N 111 JAKARTA UTARA
+          <hr class="border-2 border-sky-400 w-28 mt-2 xl:mt-5" />
+        </div>
+
+      </div>
+    </div>
+    <div class="relative mt-[280px]">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#ffffff" fill-opacity="1"
+          d="M0,64L60,58.7C120,53,240,43,360,58.7C480,75,600,117,720,122.7C840,128,960,96,1080,90.7C1200,85,1320,107,1380,117.3L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+        </path>
+      </svg>
+    </div>
+  </div>
+  <!-- Mengenal Content -->
+
+  <div class="2xl:mt-[-200px] relative">
+    <h2 data-aos="fade-right" data-aos-duration="2000"
+      class="text-[40px] text-sky-500 pl-10 font-semibold font-rubik flex">
+      Mengenal
+  </div>
+  </h2>
+  <hr data-aos="fade-right" data-aos-duration="1000" class="ml-10 w-[180px] border-b-2 border-blue-500 relative" />
+  <div class=" relative h-max w-[80%] mt-12 float-left ml-10 ">
+    <img data-aos="zoom-in" data-aos-duration="1500"
+      class="w-[600px] h-[500px] lg:w-[500px] lg:h-[500px] brightness-[0.45] float-left pr-8 md:w-[400px] md:h-[400px]  sm:w-[300px] sm:h-[300px]"
+      src="public/mengenal.jpeg">
+    <p class="text-xl align-middle 2xl:mt-[110px] xl:mt-[110px] lg:mt-6 text-wrap md:pt-10">Kegiatan Operasional SPG
+      Negeri 6 Jakarta berakhir tahun 1991 berdasarkan SK Mendikbud RI No. 046/0/1991 tanggal 15 Juli 1991 SPG Negeri 6
+      resmi menjadi SMAN 111 JAKARTA adalah sebuah Sekolah Menengah Atas Negeri di DKI Jakarta yang berada di daerah
+      Penjaringan, Jakarta Utara.<br><br>Sekolah ini juga bersebelahan dengan SMP Negeri 21 Jakarta. Berikut beberapa
+      informasi mengenai SMA Negeri 111 Jakarta:
+
+      Alamat: Jl. Bandengan Utara No. 80, Penjaringan, Jakarta Utara, DKI Jakarta, Indonesia.
+      Nomor Telepon: (021) 6611703.</p>
+
+  </div>
+  <br><br><br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <!-- VISI, MISI,TUJUAN -->
+  <div class="w-full h-max flex flex-wrap justify-center">
+
+    <div class=" w-[45%] h-max border shadow text-center ml-6 rounded-lg p-3">
+      <center>
+        <p class="text-4xl font-semibold font-rubik mt-4">Tujuan</p>
+        <hr class="w-28 border-b-2 border-slate-700 mt-2">
+      </center>
+      <ol class="mt-4 ml-8 text-xl text-left">
+        <li class=" list-decimal mt-1">Penerapan budaya positif selalu dilakukan dilingkungan sekolah</li>
+        <li class=" list-decimal mt-1">Keterserapan di perguruan tinggi mencapai 100%</li>
+        <li class=" list-decimal mt-1">Meraih peringkat UTBK 100 besar di tingkat Nasional</li>
+        <li class="list-decimal mt-1">Menjuarai kompetisi akademik dan nonakademik tingkat provinsi hingga nasional</li>
+        <li class="list-decimal mt-1">Pengembangkan potensi dan pemanfaatan sarana sekolah untuk meraih berbagai
+          prestasi dengan daya saing yang tinggi di berbagai cabang kompetisi</li>
+        <li class="list-decimal mt-1">Pelaksanaan ibadah rutin dan bermakna dilaksanakan sesuai dengan agama dan ajaran
+          yang dianut oleh semua warga sekolah</li>
+        <li class="list-decimal mt-1">Pemanfaatkan teknologi yang efektif untuk memperoleh informasi dengan cara yang
+          tepat, melakukan analisis, sintesa informasi, serta menyajikannya secara professional dilaksanakan dengan
+          optimal di berbagai bidang</li>
+      </ol>
+    </div>
+
+    <div class="border-2 w-[45%] h-max font-rubik text-left ml-6 rounded-lg shadow p-4 ">
+      <center>
+        <p class=" text-4xl font-semibold mt-4">Misi</p>
+        <hr class="w-20 border-b-2 border-slate-700">
+      </center>
+      <ol class="mt-4 ml-8 text-xl">
+        <li class=" list-decimal mt-1">Meneguhkan keyakinan untuk menggapai ketakwaan kepada Tuhan Yang Maha Esa dan
+          berakhlak mulia</li>
+        <li class=" list-decimal mt-1">Membangun dan mengimplementasikan konsep pembelajaran abad 21 dengan kreativitas
+          yang tinggi</li>
+        <li class=" list-decimal mt-1">Mengintegrasikan teknologi dan informasi dalam aktivitas pembelajaran untuk
+          menumbuhkan kemampuan bernalar kritis</li>
+        <li class="list-decimal mt-1">Berkompetisi menghadapi persaingan global secara mandiri</li>
+        <li class="list-decimal mt-1">Menumbuhkembangkan sikap berkebhinekaan global peserta didik, saling menghargai,
+          toleransi, dan cinta tanah air</li>
+        <li class="list-decimal mt-1">Menciptakan semangat gotong royong guna membangun ruang kolaborasi dalam komunitas
+          pendidikan</li>
+      </ol>
+    </div>
+    <div class=" w-[45%] h-max border shadow text-center ml-6 rounded-lg mt-4 p-4">
+      <center>
+        <p class="text-4xl font-semibold font-rubik mt-4">Visi</p>
+        <hr class="w-20 border-b-2 border-slate-700">
+      </center>
+      <p class="mt-4 ml-2 text-xl">Terwujudnya penyelenggaraan pendidikan bermutu, yang mampu bersaing global melalui
+        penanaman karakter profil pelajar pancasila</p>
+    </div>
+  </div>
+  <br><br><br><br><br>
+
+  <!-- komentar alumni -->
+  <!-- judul -->
+  <div class="Komentar-alumni">
+    <h1 class="font-rubik font-semibold text-center text-3xl text-sky-600">Komentar Alumni</h1>
+    <hr class="border-2 border-sky-700 w-[250px] m-auto mt-2">
+  </div>
+  <!-- slider -->
+  <div class="w-full h-max  bg-gradient-to-r from-blue-800 to-indigo-900">
+
+    <div
+      class="mySwiper swiper sm:w-[70%] md:w-[65%] lg:w-[50%] xl:w-[40%] 2xl:w-[40%] h-full pt-[100px] pb-[100px] mt-10">
+      <div class="swiper-wrapper ">
+        <!-- 1 -->
+        <div
+          class=" swiper-slide w-[450px] h-[200px] border-2 m-auto rounded-br-2xl shadow-xl rounded-tl-2xl bg-sky-600 pl-3 pr-3">
+          <div class="jumbotron w-[90px] h-[90px] border-2 rounded-full m-auto mt-[-40px]   ">
+            <img class=" rounded-full w-[88px] h-[88px] box-content ring-4 ring-offset-4  border-r-indigo-800 "
+              src="public/bangdodo.png" alt="1">
+          </div>
+          <p class="text-center mt-3 font-sans w-[80%] sm:w-[90%] m-auto text-white ">Saya menjadi alumni SMAN 111
+            Jakarta Utara, Disana saya di didik menjadi atlet Sepak Bola ,dan akhirnya cita cita saya tercapai berkat
+            Pak Adi. <q class="text-lg font-semibold block mt-2 text-white">Cristiano Ronaldo</q></p>
+        </div>
+        <!-- 2 -->
+        <div
+          class=" swiper-slide w-[450px] h-[200px] border-2 m-auto rounded-br-2xl shadow-xl rounded-tl-2xl bg-sky-600 pl-3 pr-3">
+          <div class="jumbotron w-[90px] h-[90px] border-2 rounded-full m-auto mt-[-40px]   ">
+            <img class=" rounded-full w-[88px] h-[88px] box-content  ring-4 ring-offset-4  border-r-indigo-800 "
+              src="public/kochi.png" alt="2">
+          </div>
+          <p class="text-center mt-3 font-sans  w-[80%] sm:w-[90%] m-auto text-white">sekolah yang berstandar
+            internasional menjadikan saya seorang pengamat sepak bola modern terima kasih SMAN 111 Jakarta dan Guru guru
+            yang mendidik saya. <br><q class="text-lg font-semibold block mt-2 text-white">Justinus Lhaksana</q></p>
+        </div>
+        <!-- 3 -->
+        <div
+          class=" swiper-slide w-[450px] h-[200px] border-2 m-auto rounded-br-2xl shadow-xl rounded-tl-2xl bg-sky-600 pl-3 pr-3 ">
+          <div class="jumbotron w-[90px] h-[90px] border-2 rounded-full m-auto mt-[-40px]    ">
+            <img class=" rounded-full w-[88px] h-[88px] box-content ring-4 ring-offset-4  border-r-indigo-800 "
+              src="public/rashford.jpg" alt="3">
+          </div>
+          <p class="text-center mt-3 font-sans m-auto w-[80%] sm:w-[90%] text-white ">Saya Alumni SMAN 111 Jakarta Utara
+            lulusan tahun 2022 dan saya adalah pemain Manchester United yang disebut El Bola Bali di Indonesia 🗿<br><q
+              class="text-lg font-semibold block mt-2 text-white">Marcus rashford</q></p>
+        </div>
+        <!-- 3 -->
+        <div
+          class=" swiper-slide w-[450px] h-[200px] border-2 m-auto rounded-br-2xl shadow-xl rounded-tl-2xl bg-sky-600 pl-3 pr-3">
+          <div class="jumbotron w-[90px] h-[90px] border-2 rounded-full m-auto mt-[-40px]   ">
+            <img
+              class=" object-fill rounded-full w-[88px] h-[88px] box-content ring-4 ring-offset-4  border-r-indigo-800 "
+              src="public/johndoe.jpg" alt="4">
+          </div>
+          <p class="text-center mt-3 font-sans m-auto w-[80%] sm:w-[90%] text-white ">Saya bangga menjadi bagian dari
+            komunitas SMA Negeri 111 yang penuh semangat dan kekeluargaan,
+            Fasilitas di SMA Negeri 111 sangat mendukung proses belajar mengajar <br><q
+              class="text-lg font-semibold block mt-2 text-white">John Doe</q></p>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+
+  <br><br><br><br><br><br><br>
+  <footer>
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#2C74B3" fill-opacity="1"
+          d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+        </path>
+        <p class="text-white relative z-10 flex text-xl 2xl:mt-[-150px] mt-[-80px] justify-center"><b>©Copyright ,
+            Created By - Febrio Dwi Setiawan - 2024</b></p>
+    </div>
+    </svg>
+  </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+
+  });
+</script>
+<script>
+  const bar = document.querySelector(".bar");
+  const link = document.querySelector(".link");
+  bar.addEventListener("click", function () {
+    link.classList.toggle("hidden");
+  });
+</script>
+<script>
+  const date = document.querySelector(".date");
+  const tanggal = new Date(Date.now());
+  const viewTanggal = tanggal.toDateString();
+  date.innerHTML = viewTanggal;
+</script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>

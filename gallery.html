@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="output.css" />
+  <title>SMAN 111 JAKARTA UTARA</title>
+</head>
+
+<body>
+  <div class="navbar w-full h-20 bg-sky-900 text-xl shadow-xl z-50 fixed top-0">
+    <p
+      class="text-center float-left mt-6 ml-28 lg:flex font-semibold text-slate-200 text-2xl min-[600px]:hidden sm:flex">
+      SMAN 111 JAKARTA UTARA
+    </p>
+    <div class="logo w-16 h-16 absolute top-2 left-10">
+      <img src="public/logo sekolah.png" alt="logo 111" />
+    </div>
+    <nav class="flex justify-between float-right pt-[23px] pr-10 text-slate-200">
+      <ul class="font-roboto text-2xl gap-8 min-[380px]:hidden md:hidden lg:flex">
+        <li class="hover:underline"><a href="index.html">Home</a></li>
+        <li class="hover:underline"><a href="profile.html">Profile</a></li>
+        <li class="hover:underline"><a href="gallery.html">Gallery</a></li>
+        <li class="hover:underline"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="responsive-navbar">
+      <i class="bar fa-solid fa-bars float-right flex m-auto pt-5 pr-6 text-3xl cursor-pointer relative min-[380px]:pr-0 lg:hidden"
+        style="color: #d0d7e1"></i>
+
+      <ul
+        class="link lg:hidden float-right p-4 mr-4 text-xl text-slate-200 bg-sky-900 w-300px h-300px text-center shadow-2xl rounded-md z-10 right-16 absolute">
+        <li class="hover:underline active:underline p-3 font-roboto">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="hover:underline p-3">
+          <a href="profile.html">Profile</a>
+        </li>
+        <li class="hover:underline p-3">
+          <a href="gallery.html">Gallery</a>
+        </li>
+        <li class="hover:underline p-3">
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="w-full z-[10]">
+    <div class="mt-[70px] mr-10">
+      <div class="instagram-logo text-4xl text-right pt-10">
+        <i class="fa-solid fa-clock text-left text-2xl ml-10 float-left"> </i>
+        <div class="date inline-flex text-2xl font-rubik float-left ml-3 font-semibold"></div>
+        <i class="cursor-pointer fa-brands fa-instagram"><a href=""></a></i>
+        <i class="cursor-pointer fa-brands fa-youtube ml-2"><a href=""></a></i>
+        <i class="cursor-pointer fa-brands fa-whatsapp ml-2"><a href=""></a></i>
+      </div>
+      <img
+        class="bg-cover bg-fixed absolute z-0 brightness-[0.4] object-fill min-[640px]:h-[450px] w-full max-[2080px]:h-[500px] min-[1536px]:h-[600px] min-[1280px]:h-[600px] min-[1024px]:h-[490px] mt-8"
+        src="public/gedungSekolah.jpeg" alt="gedungSekolah" />
+
+      <div class="z-[8] relative top-[140px] xl:top-[160px] 2xl:top-[180px] left-10">
+        <div data-aos="fade-right" data-aos-duration="1000"
+          class="text-4xl text-slate-300 font-bold font-rubik m-auto xl:text-[40px] 2xl:text-[50px]">
+          Gallery
+        </div>
+
+        <div data-aos="fade-right" data-aos-duration="2000"
+          class="text-4xl text-sky-400 font-bold font-rubik text-wrap xl:text-[50px] xl:mt-3 2xl:text-[60px] 2xl:mt-5">
+          SMA N 111 JAKARTA UTARA
+          <hr class="border-2 border-sky-400 w-28 mt-2 xl:mt-5" />
+        </div>
+      </div>
+    </div>
+    <div class="relative mt-[280px]">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#ffffff" fill-opacity="1"
+          d="M0,64L60,58.7C120,53,240,43,360,58.7C480,75,600,117,720,122.7C840,128,960,96,1080,90.7C1200,85,1320,107,1380,117.3L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+        </path>
+      </svg>
+    </div>
+  </div>
+  <div class="2xl:mt-[-170px] xl:mt-[-130px] relative">
+    <p class="font-chakraPetch text-3xl font-light text-center text-sky-600">
+      Dokumentasi Kegiatan
+    </p>
+    <hr class="border border-sky-600 mt-2 w-[80px] m-auto" />
+  </div>
+  <div
+    class="grid w-[80%] sm:grid-rows-3 lg:grid-cols-2 lg:grid-rows-4 lg:gap-5 gap-10 mt-10 justify-center m-auto xl:pl-[100px] 2xl:grid-cols-3 2xl:pl-0">
+    <div data-aos="zoom-in" data-aos-duration="1500" class="relative">
+      <iframe class="rounded-xl" width="400" height="300"
+        src="https://www.youtube.com/embed/9gedFz_9HVc?si=hQW5pBxeqWwFkmd8" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div data-aos="zoom-in" data-aos-duration="1500" class="relative">
+      <iframe class="rounded-xl" width="400" height="300"
+        src="https://www.youtube.com/embed/OZ9_dTZAoOg?si=XgLjtz44C-DPa-Kh" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div data-aos="zoom-in" data-aos-duration="1500" class="relative">
+      <iframe class="rounded-xl" width="400" height="300"
+        src="https://www.youtube.com/embed/aTJhtXS9JO0?si=klcR497nGkf1wApB" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div data-aos="zoom-in" data-aos-duration="1500" class="relative">
+      <iframe class="rounded-xl" width="400" height="300"
+        src="https://www.youtube.com/embed/qXqfztnevKM?si=d8ruAXWA1j98-r2X" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div data-aos="zoom-in" data-aos-duration="1500" class="relative">
+      <iframe class="rounded-xl" width="400" height="300"
+        src="https://www.youtube.com/embed/U6IzcPNyqRQ?si=tC6RTUux0WNDVs8N" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div data-aos="zoom-in" data-aos-duration="1500" class="relative">
+      <iframe class="rounded-xl" width="400" height="300"
+        src="https://www.youtube.com/embed/27nT5DAAcMA?si=HoxMlq9yY-qOOnto" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+  <!-- message -->
+
+  <div
+    class="w-full  h-[70vh] sm:mt-[100px] lg:mt-[0px] xl:mt-[-100px] 2xl:mt-[-290px] mb-[80px] 2xl:mb-[300px] overflow-scroll overflow-x-hidden">
+    <p class="text-4xl font-semibold font-rubik text-center text text-slate-800 mt-[10px] ] ">Komentar</p>
+    <hr class="border-2 w-[190px] m-auto mt-3 border-slate-700">
+    <!-- nama -->
+    <div class="flex">
+      <label for="nama" class=" font-rubik text-xl font-semibold ml-5 mt-5">Nama :
+        <input class="nama border-2 ml-[50px] w-[280px] mt-5 pl-2"></input>
+      </label>
+    </div>
+    <!-- komentar -->
+    <form action="">
+      <div class="flex">
+        <label for="komentar" class="flex font-rubik text-xl font-semibold ml-5 mt-5">Komentar :
+          <textarea rows="7" cols="50" class="komentar border-2 ml-5 pl-2 pt-2 "></textarea>
+        </label>
+      </div>
+      <!-- submit -->
+      <div>
+        <input type="submit"
+          class="tbl-komentar ml-[140px] border-2 mt-5 p-[10px] px-6 rounded-lg font-rubik font-semibold bg-sky-600 text-slate-100 hover:scale-105"></input>
+      </div>
+    </form>
+    <!-- Public Comment -->
+    <p class="text-2xl h-max font-rubik font-semibold mt-5 ml-4">Public Comments : </p>
+    <div class="w-[52%] mt-4 ml-[30px] border-2 rounded-xl">
+      <ul class="ul ml-10">
+        <li></li>
+        <p></p>
+      </ul>
+    </div>
+  </div>
+  <br><br>
+
+  <!-- footer -->
+  <footer class="2xl:mt-[-350px] sm:mt-[-30px] ">
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#2C74B3" fill-opacity="1"
+          d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+        </path>
+        <p class="text-white z-10 flex text-xl 2xl:mt-[-150px] mt-[-80px] justify-center xl:mt-[-120px] relative">
+          <b>©Copyright , Created By - Febrio Dwi Setiawan - 2024</b>
+        </p>
+    </div>
+    </svg>
+  </footer>
+</body>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Memeriksa apakah ada data yang tersimpan di localStorage saat halaman dimuat
+    const storedData = JSON.parse(localStorage.getItem('comments')) || [];
+
+    if (storedData.length > 0) {
+      const ul = document.querySelector('.ul');
+
+      storedData.forEach(function (comment) {
+        const liBaru = document.createElement("li");
+        liBaru.classList.add("list-image-[url(avatar.png)]", "font-rubik", "font-semibold", "text-xl", "mt-4");
+        const pBaru = document.createElement("p");
+        pBaru.classList.add("ml-[30px]", "font-rubik");
+
+        const textBaru = document.createTextNode(comment.nama);
+        const textKomentar = document.createTextNode(comment.komentar);
+
+        ul.appendChild(liBaru);
+        liBaru.appendChild(textBaru);
+        ul.appendChild(pBaru);
+        pBaru.appendChild(textKomentar);
+      });
+    }
+  });
+
+  const tblSubmit = document.querySelector('.tbl-komentar');
+  tblSubmit.addEventListener('click', function () {
+    const ul = document.querySelector('.ul');
+    const namaInput = document.querySelector('.nama').value;
+    const komentarInput = document.querySelector('.komentar').value;
+
+    const liBaru = document.createElement("li");
+    liBaru.classList.add("list-image-[url(avatar.png)]", "font-rubik", "font-semibold", "text-xl", "mt-2");
+    const pBaru = document.createElement("p");
+    pBaru.classList.add("ml-[30px]", "font-rubik",);
+
+    const textBaru = document.createTextNode(namaInput);
+    const textKomentar = document.createTextNode(komentarInput);
+
+    ul.appendChild(liBaru);
+    liBaru.appendChild(textBaru);
+    ul.appendChild(pBaru);
+    pBaru.appendChild(textKomentar);
+
+    // Mendapatkan data yang sudah tersimpan di localStorage
+    const storedData = JSON.parse(localStorage.getItem('comments')) || [];
+
+    // Menambahkan data baru ke dalam array
+    storedData.push({ nama: namaInput, komentar: komentarInput });
+
+    // Menyimpan data ke dalam localStorage
+    localStorage.setItem('comments', JSON.stringify(storedData));
+
+  });
+
+</script>
+<script>
+  const bar = document.querySelector(".bar");
+  const link = document.querySelector(".link");
+  bar.addEventListener("click", function () {
+    link.classList.toggle("hidden");
+  });
+</script>
+<script>
+  const date = document.querySelector(".date");
+  const tanggal = new Date(Date.now());
+  const viewTanggal = tanggal.toDateString();
+  date.innerHTML = viewTanggal;
+</script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>

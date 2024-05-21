@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="output.css" />
+  <title>SMAN 111 JAKARTA UTARA</title>
+</head>
+
+<body>
+  <div class="navbar w-full h-20 bg-sky-900 text-xl shadow-xl z-50 fixed top-0">
+    <p
+      class="text-center float-left mt-6 ml-28 lg:flex font-semibold text-slate-200 text-2xl min-[600px]:hidden sm:flex">
+      SMAN 111 JAKARTA UTARA
+    </p>
+    <div class="logo w-16 h-16 absolute top-2 left-10">
+      <img src="public/logo sekolah.png" alt="logo 111" />
+    </div>
+    <nav class="flex justify-between float-right pt-[23px] pr-10 text-slate-200">
+      <ul class="font-roboto text-2xl gap-8 min-[380px]:hidden md:hidden lg:flex">
+        <li class="hover:underline"><a href="index.html">Home</a></li>
+        <li class="hover:underline"><a href="profile.html">Profile</a></li>
+        <li class="hover:underline"><a href="gallery.html">Gallery</a></li>
+        <li class="hover:underline"><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="responsive-navbar">
+      <i class="bar fa-solid fa-bars float-right flex m-auto pt-5 pr-6 text-3xl cursor-pointer relative min-[380px]:pr-0 lg:hidden"
+        style="color: #d0d7e1"></i>
+
+      <ul
+        class="link lg:hidden float-right p-4 mr-4 text-xl text-slate-200 bg-sky-900 w-300px h-300px text-center shadow-2xl rounded-md z-10 right-16 absolute">
+        <li class="hover:underline active:underline p-3 font-roboto">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="hover:underline p-3">
+          <a href="profile.html">Profile</a>
+        </li>
+        <li class="hover:underline p-3">
+          <a href="gallery.html">Gallery</a>
+        </li>
+        <li class="hover:underline p-3">
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="w-full z-[10]">
+    <div class="mt-[70px] mr-10">
+      <div class="instagram-logo text-4xl text-right pt-10">
+        <i class="fa-solid fa-clock text-left text-2xl ml-10 float-left"> </i>
+        <div class="date inline-flex text-2xl font-rubik float-left ml-3 font-semibold"></div>
+        <i class="cursor-pointer fa-brands fa-instagram"><a href=""></a></i>
+        <i class="cursor-pointer fa-brands fa-youtube ml-2"><a href=""></a></i>
+        <i class="cursor-pointer fa-brands fa-whatsapp ml-2"><a href=""></a></i>
+      </div>
+      <img
+        class="bg-cover bg-fixed absolute z-0 brightness-[0.4] object-fill min-[640px]:h-[450px] w-full max-[2080px]:h-[500px] min-[1536px]:h-[600px] min-[1280px]:h-[600px] min-[1024px]:h-[490px] mt-8"
+        src="public/gedungSekolah.jpeg" alt="gedungSekolah" />
+
+      <div class="z-[8] relative top-[140px] xl:top-[160px] 2xl:top-[180px] left-10">
+        <div data-aos="fade-right" data-aos-duration="1000"
+          class="text-4xl text-slate-300 font-bold font-rubik m-auto xl:text-[40px] 2xl:text-[50px]">
+          Profile
+        </div>
+
+        <div data-aos="fade-right" data-aos-duration="2000"
+          class="text-4xl text-sky-400 font-bold font-rubik text-wrap xl:text-[50px] xl:mt-3 2xl:text-[60px] 2xl:mt-5">
+          SMA N 111 JAKARTA UTARA
+          <hr class="border-2 border-sky-400 w-28 mt-2 2xl:mt-5" />
+        </div>
+        <div
+          class="w-[200px] h-[55px] border-2 text-center mt-5 rounded-xl cursor-pointer hover:bg-sky-500 hover:scale-95 ring-2 shadow ring-offset-1">
+          <button class="text-slate-300 font-semibold mt-3 font-rubik text-xl">
+            <a href="contact.html">Hubungi Kami 📞</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="relative mt-[240px] md:mt-[230px]">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#ffffff" fill-opacity="1"
+          d="M0,64L60,58.7C120,53,240,43,360,58.7C480,75,600,117,720,122.7C840,128,960,96,1080,90.7C1200,85,1320,107,1380,117.3L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+        </path>
+      </svg>
+    </div>
+  </div>
+  <!-- CONTENT -->
+  <br /><br /><br />
+  <div class="w-full h-max flex mt-[-140px] sm:mt-[-70px] absolute flex-wrap gap-3 justify-center">
+    <div data-aos-duration="1500" data-aos="fade-down"
+      class="w-[30%] h-max border-2 mt-[50px] bg-gradient-to-l from-sky-700 to-blue-700 shadow-md rounded-lg">
+      <p class="text-2xl font-sans text-slate-100 text-center font-semibold pt-4">
+        Sarana Prasarana Lengkap
+      </p>
+      <p class="text-slate-100 mt-4 text-center text-xl pb-4 p-4">
+        Fasilitas Lengkap dengan alat alat yang terbaru dan lingkungan
+        fasilitas yang bersih dan nyaman untuk di gunakan
+      </p>
+    </div>
+    <div data-aos-duration="1500" data-aos="fade-down"
+      class="w-[30%] h-max border-2 bg-gradient-to-l from-sky-700 to-blue-700 shadow-md rounded-lg">
+      <div data-aos="fade-down"
+        class="w-[200px] h-[200px] sm:w-[100px] sm:h-[100px] sm:mt-[-50px] rounded-full bg-gradient-to-r from-orange-600 to-amber-500 m-auto mt-[-100px] relative font-rubik shadow-md">
+        <p class="items-center absolute left-[38px] bottom-[34px] text-4xl font-semibold text-slate-100">
+          A
+        </p>
+      </div>
+      <p class="text-2xl font-sans mt-4 text-center text-slate-100 font-semibold">
+        Terakreditasi A
+      </p>
+      <div class="w-[70%] justify-center m-auto pb-4">
+        <p class="mt-3 text-center text-xl text-slate-100 font-sans">
+          Dengan kualitas Pembelajaran yang bermutu, terbaik dan efektif
+          selama 8 jam.
+        </p>
+      </div>
+    </div>
+    <div data-aos-duration="1500" data-aos="fade-down"
+      class="w-[30%] h-max border-2 mt-[60px] bg-gradient-to-l from-sky-700 to-blue-700 shadow-md rounded-lg">
+      <p class="text-2xl font-sans text-slate-100 text-center font-semibold pt-4">
+        Siswa Berprestasi
+      </p>
+      <p class="text-slate-100 mt-4 text-center text-xl pb-7 p-6">
+        Siswa yang dapat berkompetisi di perkuliahan dengan nilai yang tinggi
+        maupun bekerja di dunia industrial
+      </p>
+    </div>
+  </div>
+  <br /><br /><br /><br /><br /><br />
+  <!-- Information sekolah -->
+  <h1 data-aos="fade-right" data-aos-duration="500"
+    class="sm:mt-[240px] text-center text-3xl font-semibold text-sky-600 font-rubik">
+    Data Sekolah
+  </h1>
+  <hr data-aos="fade-right" data-aos-duration="1000" class="border-2 border-sky-600 w-[160px] m-auto mt-2" />
+  <div
+    class="border-2 w-full h-[270px] bg-gradient-to-r from-blue-800 to-indigo-900 mt-14 flex justify-center flex-wrap">
+    <!-- ruangan -->
+    <div data-aos="zoom-in-out" data-aos-duration="500" class="ruangan w-[20%] h-max text-center text-[50px] mt-10">
+      <i class="fa-solid fa-school" style="color: #ffc700"></i>
+      <p class="count-ruangan font-roboto text-slate-100"></p>
+      <hr class="border-2 w-[70px] m-auto" />
+      <p class="font-rubik text-slate-100 text-3xl">Ruangan</p>
+    </div>
+    <!-- guru -->
+    <div data-aos="zoom-in-out" data-aos-duration="600" class="guru w-[20%] h-max text-center text-[50px] mt-10">
+      <i class="fa-solid fa-person-chalkboard" style="color: #ffc700"></i>
+      <p class="count-guru font-roboto text-slate-100"></p>
+      <hr class="border-2 w-[70px] m-auto" />
+      <p class="font-rubik text-slate-100 text-3xl">Guru</p>
+    </div>
+    <!-- siswa -->
+    <div data-aos="zoom-in-out" data-aos-duration="700" class="siswa w-[20%] h-max text-center text-[50px] mt-10">
+      <i class="fa-solid fa-user-tie" style="color: #ffc700"></i>
+      <p class="count-siswa font-roboto text-slate-100"></p>
+      <hr class="border-2 w-[70px] m-auto" />
+      <p class="font-rubik text-slate-100 text-3xl">Siswa</p>
+    </div>
+    <!-- Jurusan -->
+    <div data-aos="zoom-in-out" data-aos-duration="800" class="Jurusan w-[20%] h-max text-center text-[50px] mt-10">
+      <i class="fa-solid fa-book-open" style="color: #ffc700"></i>
+      <p class="count-jurusan font-roboto text-slate-100"></p>
+      <hr class="border-2 w-[70px] m-auto" />
+      <p class="font-rubik text-slate-100 text-3xl">Jurusan</p>
+    </div>
+  </div>
+  <br /><br /><br /><br /><br />
+  <!-- Lokasi -->
+  <h1 data-aos="fade-right" data-aos-duration="500"
+    class="sm:mt-[50px] text-center text-3xl font-semibold text-sky-600 font-rubik">
+    Lokasi Sekolah
+  </h1>
+  <hr data-aos="fade-right" data-aos-duration="1000" class="border-2 border-sky-600 w-[200px] m-auto mt-2" />
+  <div data-aos="zoom-in" data-aos-duration="500" class="items-center flex m-auto justify-center mt-10">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.9788774014037!2d106.79362367374311!3d-6.1335401938533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6a1df4e175631f%3A0xb307751f71bb192e!2sState%20Senior%20High%20School%20111%20of%20Jakarta!5e0!3m2!1sen!2sid!4v1712410861512!5m2!1sen!2sid"
+      width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+  </div>
+  <div class="text-left w-[600px]  relative h-max m-auto mt-10 flex">
+    <i class="fa-solid fa-location-dot text-2xl"></i>
+    <p class="ml-4 font-semibold">Jl. Bandengan Utara Raya No.80, RT.9/RW.16, Penjaringan, Kec. Penjaringan, Jkt Utara,
+      Daerah Khusus Ibukota Jakarta 14440</p>
+  </div>
+  <div class="text-left w-[600px]  relative h-max m-auto mt-2 flex">
+    <i class="fa-solid fa-phone text-2xl"></i>
+    <p class="ml-4 font-semibold">(021)-6611703</p>
+  </div>
+  <div class="text-left w-[600px]  relative h-max m-auto mt-2 flex">
+    <i class="fa-solid fa-envelope text-2xl"></i>
+    <p class="ml-4 font-semibold">sman111_penj_jakut@yahoo.com</p>
+  </div>
+  <br><br><br><br><br>
+  <!-- Footer -->
+  <footer>
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#2C74B3" fill-opacity="1"
+          d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+        </path>
+        <p class="text-white relative z-10 flex text-xl 2xl:mt-[-150px] mt-[-80px] justify-center"><b>©Copyright ,
+            Created By - Febrio Dwi Setiawan - 2024</b></p>
+    </div>
+    </svg>
+  </footer>
+</body>
+<script>
+  const bar = document.querySelector(".bar");
+  const link = document.querySelector(".link");
+  bar.addEventListener("click", function () {
+    link.classList.toggle("hidden");
+  });
+</script>
+<script>
+  const countRuangan = document.querySelector(".count-ruangan");
+  let angkaRuang = 1;
+  const hitungRuangan = setInterval(() => {
+    if (angkaRuang === 26) {
+      clearInterval();
+    } else {
+      countRuangan.innerHTML = angkaRuang++;
+    }
+  }, 300);
+</script>
+<script>
+  const countGuru = document.querySelector(".count-guru");
+  let angkaGuru = 1;
+  const hitungGuru = setInterval(() => {
+    if (angkaGuru === 30) {
+      clearInterval();
+    } else {
+      countGuru.innerHTML = angkaGuru++;
+    }
+  }, 300);
+</script>
+<script>
+  const countSiswa = document.querySelector(".count-siswa");
+  let angkaSiswa = 1;
+  const hitungSiswa = setInterval(() => {
+    if (angkaSiswa === 530) {
+      clearInterval();
+    } else {
+      countSiswa.innerHTML = angkaSiswa++;
+    }
+  }, 20);
+</script>
+<script>
+  const countJurusan = document.querySelector(".count-jurusan");
+  let angkaJurusan = 1;
+  const hitungJurusan = setInterval(() => {
+    if (angkaJurusan === 3) {
+      clearInterval();
+    } else {
+      countJurusan.innerHTML = angkaJurusan++;
+    }
+  }, 2000);
+</script>
+<script>
+  const date = document.querySelector(".date");
+  const tanggal = new Date(Date.now());
+  const viewTanggal = tanggal.toDateString();
+  date.innerHTML = viewTanggal;
+</script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>
